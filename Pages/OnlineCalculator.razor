@@ -1,0 +1,32 @@
+﻿@page "/fetchdata"
+
+<h1>Online Calculator - PriceCalc Example</h1>
+
+<p>Just to give you an idea of how the base of the app works, I wrote this (extremely) simple "example".</p>
+
+<small>Item price ($)</small>
+<input id="ItemPrice" name="ItemPrice" title="Item price ($)" type="number" value="5.00" @oninput="(EventArgs) => {SetPrice(EventArgs.Value.ToString());}" />
+<small>Tax rate (%)</small>
+<input id="TaxRate" name="TaxRate" title="Tax Rate" type="number" value="6.25" @oninput="(EventArgs) => {SetTR(EventArgs.Value.ToString());}" />
+
+<button class="btn btn-primary" @onclick=Calculate>Calculate</button>
+<p>Total: @total</p>
+
+@code {
+    string total = "$0.00";
+    double price = 0;
+    double taxRate = 6.25;
+    void Calculate()
+    {
+        double tax = (taxRate * price) / 100;
+        total = "$" + (price + tax).ToString();
+    }
+    void SetPrice(string iPrice)
+    {
+        price = double.Parse(iPrice);
+    }
+    void SetTR(string tr)
+    {
+        taxRate = double.Parse(tr);
+    }
+}

@@ -1,0 +1,16 @@
+﻿@page "/download"
+
+@inject NavigationManager NavigationManager
+
+<h1>Download</h1>
+
+<p>You can download the latest version of PriceCalc here.</p>
+
+<button class="btn btn-primary" @onclick=Redirect>Download the latest version</button>
+
+@code {
+    void Redirect()
+    {
+        NavigationManager.NavigateTo("https://github.com/josephm101/PriceCalc/releases/latest");
+    }
+}
