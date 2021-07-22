@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalc Home.csproj": {}
+    "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalcHome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalc Home.csproj": {
+    "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalcHome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalc Home.csproj",
-        "projectName": "PriceCalc Home",
-        "projectPath": "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalc Home.csproj",
+        "projectUniqueName": "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalcHome.csproj",
+        "projectName": "PriceCalcHome",
+        "projectPath": "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\PriceCalcHome.csproj",
         "packagesPath": "C:\\Users\\jmig2\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jmig2\\Documents\\GitHub\\PriceCalc_Home\\obj\\",
         "projectStyle": "PackageReference",
