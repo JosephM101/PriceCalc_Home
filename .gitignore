@@ -1,2 +1,4 @@
 bin/*
 obj/*
+*.v2
+.vs/PriceCalcHome/v17/.suo
